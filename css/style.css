@@ -584,27 +584,24 @@
 }
 
 .miniTitle {
-  font-family: Gilroy;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 18px;
-  color: #000000;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 30px !important;
+  margin-top: 0 !important;
 }
 
 .simpleText {
-  font-family: Gilroy;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 21px;
-  color: #000000;
-  margin-top: 30px;
+  font-weight: 500 !important;
+  line-height: 21px !important;
 }
 
-.startParagraph {
+.markText {
+  line-height: 21px !important;
+  color: #078CB9 !important;
+}
+
+.textWrapper p, 
+.textWrapper h4,
+.textWrapper div{
   font-family: Gilroy;
   font-style: normal;
   font-weight: 600;
@@ -612,16 +609,9 @@
   line-height: 18px;
   color: #000000;
   margin-top: 30px;
+
 }
 
-.markText {
-  font-family: Gilroy;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 21px;
-  color: #078CB9;
-}
 
 .circleText {
   width: 9px;
@@ -635,8 +625,7 @@
 }
 
 .simpleText.bold {
-  font-weight: 600;
-  margin: 0;
+  font-weight: 600 !important;
 }
 
 
@@ -1091,6 +1080,7 @@ section.reviews .reviewImgBlock {
   height: 100%;
   display: flex;
   align-items: center;
+  cursor: zoom-in;
 }
 
 
@@ -1120,7 +1110,7 @@ section.reviews .withImg .closeReviewImg{
   cursor: pointer;
 }
 
-section.reviews .withImg.active .reviewImg{
+section.reviews .reviewImgBlock.active .reviewImg{
   max-height: 40%;
   width: auto;
 }
@@ -1132,8 +1122,7 @@ section.reviews .reviewImgBlock.noneImg {
 section.reviews .reviewImg {
   width: 100%;
   height: auto;
-  max-height: 100%;  
-  cursor: zoom-in;
+  max-height: 100%;
 }
 
 section.reviews .visualExcess {
