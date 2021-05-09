@@ -1,0 +1,32 @@
+section.clubgallery .clubgalleryItem {
+  position: relative;
+}
+
+section.clubgallery .galleryImg {
+  height: 267px;
+}
+
+section.clubgallery .clubgallery1,
+section.clubgallery .clubgallery2,
+section.clubgallery .clubgallery3,
+section.clubgallery .clubgallery4,
+section.clubgallery .clubgallery5,
+section.clubgallery .clubgallery6,
+section.clubgallery .clubgallery7,
+section.clubgallery .clubgallery8 {
+  height: 100%;
+}
+
+section.clubgallery .galleryDesc {
+  margin-bottom: 32px;
+}
+
+
+@media screen and (max-width: 767px) {
+
+  section.clubgallery .galleryImg {
+    width: 100%;
+    height: 100%;
+  }
+
+}

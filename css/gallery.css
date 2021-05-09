@@ -1,0 +1,27 @@
+
+section.gallery .galleryItem:hover .galleryImg {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+section.gallery .galleryImgBlock {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+section.gallery .galleryImgBlock .galleryImg {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}
+
+@media screen and (max-width: 991px) {
+  section.gallery .galleryImgBlock {
+    width: auto;
+    height: auto;
+  }
+}
