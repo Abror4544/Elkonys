@@ -1080,7 +1080,6 @@ section.reviews .reviewImgBlock {
   height: 100%;
   display: flex;
   align-items: center;
-  cursor: zoom-in;
 }
 
 
@@ -1110,19 +1109,22 @@ section.reviews .withImg .closeReviewImg{
   cursor: pointer;
 }
 
-section.reviews .reviewImgBlock.active .reviewImg{
+section.reviews .withImg.active .reviewImg{
   max-height: 40%;
   width: auto;
+  cursor: auto;
 }
 
 section.reviews .reviewImgBlock.noneImg {
   background: #E4E4E4;
 }
 
+
 section.reviews .reviewImg {
   width: 100%;
   height: auto;
   max-height: 100%;
+  cursor: zoom-in;
 }
 
 section.reviews .visualExcess {
