@@ -1024,6 +1024,8 @@ section.numberself .numberinfo {
   font-size: 15px;
   line-height: 140%;
   margin-bottom: 22px;
+  margin-top: 0;
+  font-weight: normal;
 }
 
 section.numberself .numberdeadline {
